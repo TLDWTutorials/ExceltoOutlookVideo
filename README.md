@@ -2,11 +2,11 @@
 Synchronizing events from Microsoft Excel to Microsoft Outlook using VBA code as shown on my YouTube video: https://youtu.be/Hk_pJ-OWuXQ
 
 # Code
-    Sub AddAppointmentsToOutlookCalendar()
-    Dim olApp As Object ' Outlook.Application
-    Dim olNamespace As Object ' Outlook.Namespace
-    Dim olFolder As Object ' Outlook.Folder
-    Dim olApt As Object ' Outlook.AppointmentItem
+     Sub AddAppointmentsToOutlookCalendar()
+     Dim olApp As Object ' Outlook.Application
+     Dim olNamespace As Object ' Outlook.Namespace
+     Dim olFolder As Object ' Outlook.Folder
+     Dim olApt As Object ' Outlook.AppointmentItem
     
     ' Create Outlook application object
     Set olApp = CreateObject("Outlook.Application")
