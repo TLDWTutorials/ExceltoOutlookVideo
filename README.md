@@ -81,4 +81,4 @@ Synchronizing events from Microsoft Excel to Microsoft Outlook using VBA code as
     Set olApp = Nothing
     
     MsgBox "Appointments added to Outlook calendar successfully!", vbInformation
-   End Sub
+    End Sub
